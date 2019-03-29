@@ -39,7 +39,7 @@ public class controlador implements ActionListener, WindowListener {
 
 	@Override
 	public void windowClosing(WindowEvent arg0) {
-		System.exit(0); 
+		System.exit(0);
 
 	}
 
