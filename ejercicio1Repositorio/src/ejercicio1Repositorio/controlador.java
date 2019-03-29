@@ -16,10 +16,12 @@ public class controlador implements ActionListener, WindowListener {
 		this.objVista = objVista;
 		this.objModelo = objModelo;
 		
-		
+		objVista.contar.addActionListener(this);
 		objVista.addWindowListener(this);
 		
 	}
+	
+	
 
 	
 	
@@ -65,6 +67,18 @@ public class controlador implements ActionListener, WindowListener {
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
+		
+		//if(objVista.contar.equals(arg0.getSource())) {
+			//try {
+				//String text = this.objVista.campoTexto.getText();
+				
+			//}
+			
+			
+			
+			
+		//}
+		
 		
 	}
 
