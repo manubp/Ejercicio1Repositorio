@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-public class Controlador implements ActionListener, WindowListener {
+public class controlador implements ActionListener, WindowListener {
 
 	
 	
