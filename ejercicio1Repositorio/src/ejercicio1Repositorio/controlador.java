@@ -7,8 +7,20 @@ import java.awt.event.WindowListener;
 
 public class controlador implements ActionListener, WindowListener {
 
+	Vista objVista = new Vista();
+	Modelo objModelo = new Modelo();
 	
 	
+	public controlador(Vista objVista, Modelo objModelo) {
+	
+		this.objVista = objVista;
+		this.objModelo = objModelo;
+		
+		
+		objVista.addWindowListener(this);
+		
+	}
+
 	
 	
 	
